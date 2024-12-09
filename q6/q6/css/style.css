@@ -1,1 +1,41 @@
 @charset "UTF-8";
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #388bff;
+  width: 100%;
+  position: fixed;
+}
+
+.logo-navarea {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.shop-logo {
+  display: inline-block;
+  margin: 30px 0 22px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f2ff7b;
+}
+
+nav {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 770px;
+}
+
+nav ul {
+  display: flex;
+  gap: 60px;
+}
+
+nav a {
+  color: #ffffff;
+}
