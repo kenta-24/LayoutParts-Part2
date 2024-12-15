@@ -12,22 +12,22 @@
   position: relative;
 }
 
-.text-box:before {
+.text-box:before, .text-box:after {
   content: "";
   position: absolute;
+  border: 20px solid transparent;
+}
+
+.text-box:before {
   bottom: -38px;
   left: 30px;
-  border: 20px solid transparent;
   border-top: 20px solid #fad296;
   z-index: 2;
 }
 
 .text-box:after {
-  content: "";
-  position: absolute;
   bottom: -45px;
   left: 30px;
-  border: 20px solid transparent;
   border-top: 20px solid #8f5a0a;
   z-index: 1;
 }
